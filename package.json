@@ -1,0 +1,16 @@
+{
+  "name": "netserver",
+  "version": "1.0.0",
+  "description": "TCP Client Server NodeJs",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "client": "nodemon simulation/client.js"
+  },
+  "author": "William M. Peter",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
