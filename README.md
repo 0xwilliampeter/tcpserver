@@ -7,6 +7,6 @@ Make sure you have Node.js installed
 git clone https://github.com/peterwilliam860/tcpserver.git
 cd tcpserver
 npm install
-npm start
+npm run server # run tcp server
 ```
 The server should now be running on [localhost:6002](http://localhost:6002)
