@@ -7,7 +7,7 @@ const client = net.createConnection({
 
 client.on("connect", () => {
   console.log("CONNECTED");
-  client.write("From Client: This is my Unique ID" + "\r\n");
+  client.write("From Client: This is my IMEI" + "\r\n");
 });
 
 client.on("data", (data) => {
